@@ -19,7 +19,7 @@
 # @version 0.3
 #########################################################################
 
-all: ../i386/alloc.so ../x86_64/alloc.so
+all: ../x86_64/alloc.so
 
 ../i386/alloc.so: alloc.c
 	$(CC) -m32 -shared -fPIC -o $@ $< -ldl

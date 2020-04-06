@@ -21,7 +21,7 @@
 
 .PHONY: all clean
 
-all: i386 x86_64
+all: x86_64
 	$(MAKE) -C alloc
 
 i386:
